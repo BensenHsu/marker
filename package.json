@@ -1,6 +1,6 @@
 {
   "name": "@bensenhsu/marker",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "keywords": [
     "codex editor",
     "marker",
@@ -8,7 +8,7 @@
     "editor.js",
     "editorjs"
   ],
-  "description": "Advanced marker Tool for Editor.js",
+  "description": "Marker Tool for Editor.js",
   "license": "MIT",
   "repository": "https://github.com/BensenHsu/marker",
   "main": "./dist/bundle.js",
@@ -17,20 +17,20 @@
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "Bensen Hsu",
-    "email": "593783125bh@gmail.com"
+    "name": "CodeX",
+    "email": "team@codex.so"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.12",
-    "@babel/preset-env": "^7.20.2",
-    "babel-loader": "^9.1.2",
-    "css-loader": "^6.7.3",
-    "raw-loader": "^4.0.2",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^1.0.0",
+    "raw-loader": "^3.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "@codexteam/icons": "^0.2.0"
+    "@codexteam/icons": "^0.0.5"
   }
 }
